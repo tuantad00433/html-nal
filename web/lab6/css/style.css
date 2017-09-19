@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    width: 100%;
+    background-color: #6FA8DC;
+    border-bottom: 2px solid dimgray;
+    border-top: 2px solid dimgray;
+}
+
+/*Design Header and Navigation Bar.*/
+header {
+    width: 960px;
+    margin: auto;
+}
+
+header img {
+    width: 80px;
+    height: 80px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.banner {
+    position: relative;
+    width: 640px;
+}
+
+header > .banner span {
+    font-weight: bold;
+    font-size: 35px;
+    position: absolute;
+    top: 30px;
+    left: 80px;
+}
+
+nav {
+    position: relative;
+}
+
+nav ul {
+    list-style-type: none;
+    position: absolute;
+    right: 0;
+    bottom: 40px;
+}
+
+nav ul li {
+    display: inline-block;
+    width: 60px;
+    border-right: 2px solid black;
+}
+
+nav ul li:last-child {
+    border: none;
+}
+
+nav ul li a {
+    display: block;
+    text-align: center;
+}
+
+nav ul li a:hover {
+    color: orange;
+}
+nav ul li a:visited{
+    color: #00B0F1;
+}
+
+/*Makeup for content*/
+.quote {
+    width: 960px;
+    margin: auto;
+    color: white;
+    height: 55px;
+    padding: 20px;
+    position: relative;
+
+}
+
+.quote p {
+    text-align: center;
+}
+
+.quote span {
+    text-align: right;
+    position: absolute;
+    right: 100px;
+    bottom: 25px;
+}
+
+main{
+    width: 960px;
+    margin: auto;
+    padding-top: 30px;
+}
+main .content-box{
+    width: 285px;
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    min-height: 200px;
+}
+.content-box a{
+    text-transform: capitalize;
+    font-weight: bold;
+    color: #6FA8DC;
+    font-size: 18px;
+    margin-bottom: 20px;
+
+}
+.content-box p{
+    margin-top: 10px;
+    font-family: 'Patrick Hand', cursive;
+    font-weight: bold;
+    line-height: 25px;
+}
+.content-box img{
+    width: 235px;
+    height: 50px;
+
+}
+footer{
+    width: 960px;
+    margin: auto;
+    height: 25px;
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}

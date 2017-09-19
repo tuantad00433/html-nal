@@ -1,0 +1,58 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+body {
+    font-family: Tahoma;
+    font-size: 11px;
+}
+
+header > h1 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.content {
+    padding: 10px;
+}
+
+.content > p:first-child {
+    margin-bottom: 15px;
+}
+
+.content ins {
+    color: green;
+    font-style: italic;
+}
+
+.specialHeader {
+    color: red;
+    font-weight: bold;
+}
+
+.content img {
+    margin-top: 10px;
+    width: 450px;
+    height:: 600px;
+}
+
+ul {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+ul li {
+    font-family: Consolas;
+    margin-top: 5px;
+    margin-left: 30px;
+}
+.content .special{
+    font-style: italic;
+    color: red;
+}
+footer{
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
